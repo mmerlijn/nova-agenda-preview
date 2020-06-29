@@ -1,0 +1,29 @@
+{
+    "name": "mmerlijn/nova-agenda-preview",
+    "description": "A Laravel Nova resource tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mmerlijn\\NovaAgendaPreview\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mmerlijn\\NovaAgendaPreview\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
