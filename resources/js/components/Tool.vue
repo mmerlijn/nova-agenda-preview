@@ -29,7 +29,7 @@
         methods: {
             preview() {
                 this.axiosInterceptors();
-                axios.post('/pa/agenda-preview/' + this.resourceId, {
+                axios.post('/nova-vendor/nova-agenda-preview/preview/' + this.resourceId, {
                     filter: this.filter,
                 }).then((r) => {
                     this.agenda = r.data;
